@@ -11,8 +11,8 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
+resource "azurerm_resource_group" "rg" {
+  name     = "TerraformRG"
   location = "West Europe"
 }
 
